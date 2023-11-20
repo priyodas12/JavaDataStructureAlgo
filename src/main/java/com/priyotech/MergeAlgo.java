@@ -12,6 +12,8 @@ public class MergeAlgo {
         List<Integer> l2=Arrays.asList(1,4,6,7,9,10,12,13,16,22,23);
         List<Integer> mergedList=mergeTwoList(l1,l2,l1.size(),l2.size());
         System.out.println(mergedList);
+
+        Arrays.asList(1,4,6,7,9,10,12,13,16,22,23).stream().forEach(System.out::println);
     }
 
     public static List<Integer> mergeTwoList(List<Integer> A,List<Integer> B,int m,int n){
